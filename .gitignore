@@ -1,0 +1,24 @@
+# ===== Data & artifacts =====
+data/
+*.zip
+
+# ===== Model weights =====
+models/*.pth
+
+# ===== Logs =====
+log/
+wandb/
+
+# ===== Jupyter =====
+.ipynb_checkpoints/
+
+# ===== Python cache =====
+__pycache__/
+*.pyc
+
+# ===== OS / Editor =====
+.DS_Store
+.vscode/
+
+# images
+*.png

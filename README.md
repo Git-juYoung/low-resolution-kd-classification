@@ -189,3 +189,30 @@ LR Hard-label baseline 대비 **+1.58%p 성능 향상**을 보였습니다.
 ├── LICENSE
 └── requirements.txt
 ```
+---
+
+## 8. Script Description
+
+- `train_teacher.py`  
+  Train the teacher model using HR (x4 upscaled) images.
+
+- `train_student.py`  
+  Train the student model on LR images using hard-label supervision only.
+
+- `train_kd_student.py`  
+  Train the student model with knowledge distillation using teacher predictions.
+
+- `test_teacher.py`  
+  Evaluate the trained teacher model on the test set.
+
+- `test_student.py`  
+  Evaluate the baseline student model (hard-label only).
+
+- `test_kd_student.py`  
+  Evaluate the student model trained with knowledge distillation.
+
+- `check_data.py`  
+  Utility script to verify dataset paths and basic data integrity.
+
+- `src/`  
+  Core modules including dataset definitions, model architectures, training utilities, and loss functions.

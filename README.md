@@ -34,6 +34,7 @@ LR 환경에서도 Student 모델이 더 풍부한 표현을 학습할 수 있�
 
 ### Dataset Structure
 
+```text
 data/
 ├── train/
 │ ├── TRAIN_00000.jpg
@@ -49,7 +50,7 @@ data/
 │ └── TRAIN_15833.png
 ├── train.csv
 └── test.csv
-
+```
 
 ### File Description
 
@@ -174,6 +175,7 @@ LR Hard-label baseline 대비 **+1.58%p 성능 향상**을 보였습니다.
 
 ## 7. Repository Structure
 
+```text
 ├── assets/ # Training curves and result figures
 ├── src/ # Model, dataset, training utilities
 ├── train_teacher.py
@@ -186,3 +188,4 @@ LR Hard-label baseline 대비 **+1.58%p 성능 향상**을 보였습니다.
 ├── README.md
 ├── LICENSE
 └── requirements.txt
+```

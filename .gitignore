@@ -22,3 +22,7 @@ __pycache__/
 
 # images
 *.png
+
+# Allow README assets
+!assets/
+!assets/*.png

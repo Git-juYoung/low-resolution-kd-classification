@@ -7,7 +7,7 @@
 import torch
 
 class EarlyStopping:
-    def __init__(self, patience: int, save_path: str):
+    def __init__(self, patience, save_path):
         self.patience = patience
         self.save_path = save_path
         self.best_loss = float("inf")

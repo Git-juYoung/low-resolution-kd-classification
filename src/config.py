@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[ ]:
-
-
 teacher_config = {
     'freeze_until' : 'layer2',
 

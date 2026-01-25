@@ -1,8 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[ ]:
-
 from pathlib import Path
 from torch.utils.data import Dataset
 from PIL import Image

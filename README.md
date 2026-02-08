@@ -194,25 +194,25 @@ LR Hard-label baseline 대비 **+1.58%p 성능 향상**을 보였다.
 ## 8. Script Description
 
 - `train_teacher.py`  
-  HR (x4 upscaled) 이미지를 사용하여 teacher 모델을 학습하는 스크립트이다.
+  HR (x4 upscaled) 이미지를 사용하여 teacher 모델을 학습하는 스크립트
 
 - `train_student.py`  
-  LR 이미지를 사용하여 hard-label supervision만으로 student 모델을 학습하는 스크립트이다.
+  LR 이미지를 사용하여 hard-label supervision만으로 student 모델을 학습하는 스크립트
   
 - `train_kd_student.py`  
-  teacher의 예측 분포를 활용하여 knowledge distillation 방식으로 student 모델을 학습하는 스크립트이다.
+  teacher의 예측 분포를 활용하여 knowledge distillation 방식으로 student 모델을 학습하는 스크립트
 
 - `test_teacher.py`  
-  학습된 teacher 모델을 test set에서 평가하는 스크립트이다.
+  학습된 teacher 모델을 test set에서 평가하는 스크립트
 
 - `test_student.py`  
-  baseline student 모델을 평가하는 스크립트이다.
+  baseline student 모델을 평가하는 스크립트
 
 - `test_kd_student.py`  
-  knowledge distillation으로 학습된 student 모델을 평가하는 스크립트이다.
+  knowledge distillation으로 학습된 student 모델을 평가하는 스크립트
 
 - `check_data.py`  
-  데이터 경로 및 기본 무결성을 점검하는 유틸리티 스크립트이다.
+  데이터 경로 및 기본 무결성을 점검하는 유틸리티 스크립트
 
 - `src/`  
-  dataset 정의, 모델 구조, 학습 루프, 손실 함수 등 핵심 모듈을 포함한다.
+  dataset 정의, 모델 구조, 학습 루프, 손실 함수 등 핵심 모듈을 포함
